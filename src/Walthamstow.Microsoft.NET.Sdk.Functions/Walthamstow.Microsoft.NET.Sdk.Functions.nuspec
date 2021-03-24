@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>Walthamstow.Microsoft.NET.Sdk.Functions</id>
-		<version>3.0.12</version>
+		<version>3.0.13</version>
 		<title>Walthamstow.Microsoft.NET.Sdk.Functions</title>
 		<authors>Csaba Salat</authors>
 		<owners>Csaba Salat</owners>
@@ -14,9 +14,11 @@
 		<tags>MassTransit, Azure Functions</tags>
 		<dependencies>
 			<dependency id="Microsoft.NET.Sdk.Functions" version="3.0.11" />
+			<dependency id="Microsoft.Azure.Functions.Extensions" version="1.1.0" />
 		</dependencies>
 	</metadata>
 	<files>
 		<file src="..\..\LICENSE" target="LICENSE" />
 	</files>
+
 </package>
