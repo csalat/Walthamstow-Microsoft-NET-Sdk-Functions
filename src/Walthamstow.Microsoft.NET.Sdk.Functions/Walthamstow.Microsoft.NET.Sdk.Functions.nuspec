@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Walthamstow.Microsoft.NET.Sdk.Functions</id>
+		<version>3.0.12</version>
+		<title>Walthamstow.Microsoft.NET.Sdk.Functions</title>
+		<authors>Csaba Salat</authors>
+		<owners>Csaba Salat</owners>
+		<projectUrl>https://github.com/csalat/Walthamstow-Microsoft-NET-Sdk-Functions/</projectUrl>
+		<license type="file">LICENSE</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Metapackage for Microsoft.NET.Sdk.Functions</description>
+		<releaseNotes>Update to latest packages.</releaseNotes>
+		<tags>MassTransit, Azure Functions</tags>
+		<dependencies>
+			<dependency id="Microsoft.NET.Sdk.Functions" version="3.0.11" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\..\LICENSE" target="LICENSE" />
+	</files>
+</package>
